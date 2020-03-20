@@ -4,10 +4,10 @@ def line(names)
   line_info = "The line is currently:"
 
   if names.empty?
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     names.each_with_index {|name, i| line_info << " #{i+1}. #{name}"}
-    line_info
+    puts line_info
   end
 
 end
