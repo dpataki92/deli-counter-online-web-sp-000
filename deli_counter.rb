@@ -12,19 +12,23 @@ def line(names)
 
 end
 
-def take_a_number(arr, name)
-  next_one = arr.length + 1
-  arr << name
-  puts "Welcome, #{name}. You are number #{next_one} in line."
+
+def take_a_number(names, name)
+  
+  names << name
+  
+  puts "Welcome, #{name}. You are number #{names.length} in line."
+  
 end
 
-def now_serving(arr)
 
-  if arr.empty?
+def now_serving(names)
+
+  if names.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{arr[0]}."
-    arr.shift
+    puts "Currently serving #{names[0]}."
+    names.shift
   end
 
 end
