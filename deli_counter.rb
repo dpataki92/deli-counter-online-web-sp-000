@@ -18,7 +18,7 @@ def take_a_number(arr, name)
   puts "Welcome, #{name}. You are number #{next_one} in line."
 end
 
-def now_serving(arr, name)
+def now_serving(arr)
 
   if arr.empty?
     puts "There is nobody waiting to be served!"
