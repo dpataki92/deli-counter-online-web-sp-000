@@ -14,11 +14,11 @@ end
 
 
 def take_a_number(names, name)
-  
+
   names << name
-  
+
   puts "Welcome, #{name}. You are number #{names.length} in line."
-  
+
 end
 
 
