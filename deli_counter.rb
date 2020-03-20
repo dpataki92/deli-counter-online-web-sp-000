@@ -9,7 +9,7 @@ def line(names)
     names.each_with_index {|name, i| line_info << " #{i+1}. #{name}"}
     line_info
   end
-  
+
 end
 
 def take_a_number(arr, name)
@@ -19,5 +19,5 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr, name)
-  puts 
+  puts
 end
